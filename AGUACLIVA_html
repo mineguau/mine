@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AGUA CLIVA - Purificadora de Agua</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #e6f7ff;
+      color: #333;
+    }
+    header {
+      background: #007acc;
+      color: white;
+      padding: 1.5rem;
+      text-align: center;
+    }
+    nav {
+      background: #005f99;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 1rem;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    main {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    section {
+      margin-bottom: 2rem;
+    }
+    footer {
+      background: #007acc;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+    .btn {
+      background: #00b894;
+      color: white;
+      border: none;
+      padding: 0.8rem 1.5rem;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .btn:hover {
+      background: #019474;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>AGUA CLIVA</h1>
+    <p>Tu purificadora de confianza</p>
+  </header>
+
+  <nav>
+    <a href="#nosotros">Nosotros</a>
+    <a href="#servicios">Servicios</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+
+  <main>
+    <section id="nosotros">
+      <h2>¿Quiénes somos?</h2>
+      <p>En <strong>AGUA CLIVA</strong>, nos dedicamos a ofrecer agua purificada de alta calidad para tu hogar. Contamos con tecnología de punta y personal capacitado para garantizarte pureza y confianza en cada gota.</p>
+    </section>
+
+    <section id="servicios">
+      <h2>Servicios</h2>
+      <ul>
+        <li>Venta de garrafones de 19L</li>
+        <li>Venta de botellas de agua de 1L</li>
+        <li>Rellenado de agua purificada</li>
+        <li>Venta de botellas de agua alcalina de 1L</li>
+        <li>Entrega a domicilio (PRÓXIMAMENTE)</li>
+      </ul>
+    </section>
+
+    <section id="contacto">
+      <h2>Contáctanos</h2>
+      <p>📍 </p>
+      <p>📞 Teléfono: 5532920167</p>
+      <p>📧 Email: kaisfher@hotmail.com</p>
+      <button class="btn" onclick="alert('Gracias por contactarnos. Te responderemos pronto.')">Enviar mensaje</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 AGUA CLIVA. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
